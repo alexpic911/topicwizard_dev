@@ -14,5 +14,5 @@ app_test = topicwizard.get_dash_app(topic_data,exclude_pages = {'words','documen
 
 
 if __name__ == '__main__':
-    server_port = os.environ.get('PORT', '8080')
-    app_test.run(debug=False, port=8080)
+    #server_port = os.environ.get('PORT', '8080')
+    app_test.run_server(debug=False, host = "0.0.0.0", port=8050)
