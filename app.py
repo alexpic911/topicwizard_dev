@@ -6,7 +6,7 @@ from flask import Flask, render_template
 import topicwizard
 import joblib
 # pylint: disable=C0103
-topic_data = joblib.load('/Users/alessandro.piccolo/PycharmProjects/pythonProject1/topic_data.joblib')
+topic_data = joblib.load('topic_data.joblib')
 
 
 app_test = topicwizard.get_dash_app(topic_data,exclude_pages = {'words','documents'})
