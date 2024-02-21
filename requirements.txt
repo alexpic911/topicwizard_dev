@@ -1,0 +1,2 @@
+topicwizard==1.0.0
+gensim
