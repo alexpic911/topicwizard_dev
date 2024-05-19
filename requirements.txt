@@ -1,2 +1,2 @@
-topicwizard==1.0.0
+topicwizard
 gensim
